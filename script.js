@@ -15,7 +15,7 @@ function calcular() {
     let delta = b**2 - 4*a*c
 
     if (delta < 0) {
-        window.alert('A equação não possui raizes reais')
+        res.innerHTML = 'A equação não possui raizes reais'
         return
     }
 
@@ -23,5 +23,6 @@ function calcular() {
     let baskara1 = ((b*(-1) + raiz) / (2*a)).toFixed(2)
     let baskara2 = ((b*(-1) - raiz) / (2*a)).toFixed(2)
 
-    res.innerHTML = `As raizes da equação equivalem a ${baskara1} e ${baskara2}`
+    res.innerHTML = `O valor de delta equivale a ${delta}.<br> `
+    res.innerHTML += `E as raizes da equação equivalem a ${baskara1} e ${baskara2}`
 }

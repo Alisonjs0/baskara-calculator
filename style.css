@@ -11,9 +11,42 @@ body {
 section {
     text-align: center;
     align-items: center;
-    margin-top: 10rem;
+    margin: 10rem auto;
+    font-family: sans-serif;
+    background: #e4e4e4;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 20px;
+}
+
+h1 {
+    background: rgb(20, 122, 255);
+    color: #fff;
+    padding: .5rem;
+    border-radius: 20px 20px 0 0px;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: 550;
 }
 
 input {
     margin: .3rem;
+    padding: .3rem;
+    border-radius: 10px;
+    border: 1px solid #c5c5c5;
+}
+
+#button {
+    width: 10rem;
+    background: rgb(20, 122, 255);
+    color: #fff;
+    font-size: 18pt;
+    margin-top: 1rem;
+}
+
+#res {
+    margin-top: 1rem;
+    padding: 0 8px;
 }
